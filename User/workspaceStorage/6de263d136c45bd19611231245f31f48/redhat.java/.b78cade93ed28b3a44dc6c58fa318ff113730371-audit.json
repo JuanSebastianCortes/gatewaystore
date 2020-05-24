@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/desarrollo/gatewaystore/User/workspaceStorage/6de263d136c45bd19611231245f31f48/redhat.java/.b78cade93ed28b3a44dc6c58fa318ff113730371-audit.json",
+    "files": [
+        {
+            "date": 1590248108759,
+            "name": "/home/desarrollo/gatewaystore/User/workspaceStorage/6de263d136c45bd19611231245f31f48/redhat.java/client.log.2020-05-23",
+            "hash": "d331720dee5213e826e58b48557cd986"
+        },
+        {
+            "date": 1590281159731,
+            "name": "/home/desarrollo/gatewaystore/User/workspaceStorage/6de263d136c45bd19611231245f31f48/redhat.java/client.log.2020-05-24",
+            "hash": "eb1ec24853fd56449b905964ef2134e0"
+        }
+    ]
+}

@@ -24,7 +24,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
+      defaultZone: http://admin:${jhipster.registry.password}@13.65.148.169:8761/eureka/
 
 management:
   metrics:
@@ -40,9 +40,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/gatewaystore
+    url: jdbc:postgresql://13.65.148.169:5432/gatewaystore
     username: postgres
-    password: 12345
+    password: 123456
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -63,7 +63,7 @@ spring:
     sampler:
       probability: 1 # report 100% of traces
   zipkin: # Use the "zipkin" Maven profile to have the Spring Cloud Zipkin dependencies
-    base-url: http://localhost:9411
+    base-url: http://13.65.148.169:9411
     enabled: false
     locator:
       discovery:
